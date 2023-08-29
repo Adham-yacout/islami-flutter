@@ -5,7 +5,7 @@ import 'package:islami/home/radiotab.dart';
 import 'package:islami/home/tasbeehtab.dart';
 import 'package:islami/mytheme_white.dart';
 
-import 'hadethtab.dart';
+import 'hadeth/hadethtab.dart';
 
 class homescreen extends StatefulWidget {
   static const String routename = "home";
@@ -58,5 +58,5 @@ class _homescreenState extends State<homescreen> {
     );
   }
 
-  List<Widget> tabs = [radio(), tasbeeh(), hadeth(), quran()];
+  List<Widget> tabs = [radio(), tasbeeh(), hadethtab(), quran()];
 }

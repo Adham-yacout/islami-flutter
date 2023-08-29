@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'package:islami/home/hadeth/hadethnamedetails.dart';
+
 import 'package:islami/home/homescreen.dart';
-import 'package:islami/home/suranamedetails.dart';
+import 'package:islami/home/quran/suranamedetails.dart';
 import 'package:islami/mytheme_white.dart';
 
 void main() {
@@ -17,6 +21,7 @@ class app extends StatelessWidget {
       routes: {
         homescreen.routename: (context) => homescreen(),
         suranamedetails.routename: (context) => suranamedetails(),
+        hadethamedetails.routename: (context) => hadethamedetails(),
       },
       theme: mytheme.lighttheme,
       darkTheme: mytheme.darktheme,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islami/home/suranamedetails.dart';
+import 'package:islami/home/quran/suranamedetails.dart';
 
 class suraname extends StatelessWidget {
   String name;
@@ -20,6 +20,5 @@ class suraname extends StatelessWidget {
         style: Theme.of(context).textTheme.titleMedium,
       ),
     );
-    ;
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class mytheme {
   static Color blackcolor = Color(0xff242424);
+  static Color primarycolor = Color(0xffB7935F);
   static Color gold = Color(0xffB7935F);
   static ThemeData lighttheme = ThemeData(
       scaffoldBackgroundColor: Colors.transparent,

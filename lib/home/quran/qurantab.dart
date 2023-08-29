@@ -124,7 +124,9 @@ class quran extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Center(child: Image.asset('assets/images/temppic1.png')),
+        Expanded(
+            flex: 1,
+            child: Center(child: Image.asset('assets/images/temppic1.png'))),
         Divider(
           color: mytheme.gold,
           thickness: 5,
@@ -135,6 +137,7 @@ class quran extends StatelessWidget {
           thickness: 5,
         ),
         Expanded(
+          flex: 2,
           child: ListView.separated(
               itemBuilder: (context, index) {
                 return suraname(

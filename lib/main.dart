@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami/home/homescreen.dart';
 import 'package:islami/home/suranamedetails.dart';
 import 'package:islami/mytheme_white.dart';
@@ -19,6 +20,9 @@ class app extends StatelessWidget {
       },
       theme: mytheme.lighttheme,
       darkTheme: mytheme.darktheme,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      locale: Locale("ar"),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/home/quran/qurantextstyle.dart';
-import 'package:islami/mytheme_white.dart';
+import 'package:islami/teme/mytheme_white.dart';
 
 class quran extends StatelessWidget {
   List<String> name = [

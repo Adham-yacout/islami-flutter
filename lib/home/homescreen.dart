@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami/home/quran/qurantab.dart';
 import 'package:islami/home/radiotab.dart';
-import 'package:islami/home/tasbeehtab.dart';
-import 'package:islami/mytheme_white.dart';
+import 'package:islami/settings/settingstab.dart';
+import 'package:islami/tasbeeh/tasbeehtab.dart';
+import 'package:islami/teme/mytheme_white.dart';
 
 import 'hadeth/hadethtab.dart';
 
@@ -45,6 +46,9 @@ class _homescreenState extends State<homescreen> {
                   BottomNavigationBarItem(
                       icon: ImageIcon(AssetImage('assets/images/quran.png')),
                       label: AppLocalizations.of(context)!.quran),
+                  BottomNavigationBarItem(
+                      icon: Icon(Icons.settings),
+                      label: AppLocalizations.of(context)!.settings),
                 ],
               ),
             ),
@@ -58,5 +62,5 @@ class _homescreenState extends State<homescreen> {
     );
   }
 
-  List<Widget> tabs = [radio(), tasbeeh(), hadethtab(), quran()];
+  List<Widget> tabs = [radio(), tasbeeh(), hadethtab(), quran(), settingstab()];
 }

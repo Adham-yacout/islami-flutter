@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami/home/hadeth/hadethtextstyle.dart';
-import 'package:islami/mytheme_white.dart';
+import 'package:islami/teme/mytheme_white.dart';
 
 import 'hadethitem.dart';
 
